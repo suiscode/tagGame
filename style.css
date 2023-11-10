@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+}
+
+#scoreboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scores{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-inline: 100px;
+}
+
+#blue{
+    background-color: blue;
+    width: 50%;
+}
+
+#red{
+    background-color: red;
+    width: 50%;
+}
+
+#arena{
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+}
+
+.disable{
+    pointer-events: none;
+}
+
+#winner{
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    font-size: 40px;
+    background-color: white;
+    border-radius: 10px;
+    width: 120px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+.hide {
+    display: none;
+}
+
+.show{
+    display: flex;
+}
+
+#reset{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.number{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+}
+
